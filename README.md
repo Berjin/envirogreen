@@ -6,6 +6,7 @@ This responsive Website is built with React, HTML and CSS. This website allows u
 1. Clone this repo
 2. Run `npm install`
 3. Run `npm start`
+
 ## Screenshots
 ![Landing Page](/src/containers/Screenshots/Screenshot-1.png?raw=true "Screenshot")
 
