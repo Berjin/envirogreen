@@ -1,0 +1,9 @@
+.search-box{
+    padding: 5px;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}

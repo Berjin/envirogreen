@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  height: 70vh; 
+  display: flex;
+  /* filter: blur(1.5px); */
+  align-items: center;
+  justify-content: center;
+  background: url(./hero.jpg) no-repeat;
+  margin-bottom: 20px;
+}
+.container h1{
+  font-weight: bold;
+}
