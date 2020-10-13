@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button} from '../Button/Button';
+
 const Cart = (props)=>{
     const {cart} = props;
     const totalPrice = ()=> {
