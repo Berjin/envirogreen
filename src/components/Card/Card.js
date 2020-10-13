@@ -1,12 +1,11 @@
 import React from 'react';
-import flower from './Assets/flower.jpeg';
 import './Card.css';
 import {Button} from '../Button/Button';
 const Card = (props)=>{
-    const {id,title,description,price,addFunc} = props;
+    const {id,title,description,price,img,addFunc} = props;
     return(
         <div  className='card'>
-            <img src={flower} alt='Jasmine'/>
+            <img src={img} alt='Jasmine'/>
             <div>
                 <h2>{title}</h2>
                 <p>{description}</p>

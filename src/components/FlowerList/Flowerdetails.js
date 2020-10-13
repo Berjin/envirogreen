@@ -1,50 +1,67 @@
+import anemone from './Assets/anemone.jpg'
+import lotus from './Assets/lotus.jpg'
+import marguerite from './Assets/marguerite.jpg'
+import marigold from './Assets/marigold.jpg'
+import rose from './Assets/rose.jpg'
+import sunflowers from './Assets/sunflowers.jpg'
+import tulips from './Assets/tulips.jpg'
+import waterLily from './Assets/waterLily.jpg'
+
 export const flowers =[
     {
         id:'f1',
-        title:'Jasmine',
-        description:'Jasmine is a wonderful flower',
+        title:'Anemone',
+        description:'Anemone is a wonderful flower',
+        img: anemone,
         price:5
     },
     {
         id:'f2',
-        title:'Rose',
-        description:'Rose is a wonderful flower',
+        title:'Lotus',
+        description:'Lotus is a wonderful flower',
+        img: lotus,
         price:6
     },
     {
         id:'f3',
-        title:'Sunflower',
-        description:'Sunflower is a wonderful flower',
+        title:'Marguerite',
+        description:'marguerite is a wonderful flower',
+        img: marguerite,
         price:7
     },
     {
         id:'f4',
-        title:'Indiana',
-        description:'Indiana is a wonderful flower',
+        title:'Marigold',
+        description:'marigold is a wonderful flower',
+        img: marigold,
         price:4
     },
     {
         id:'f5',
-        title:'Orchid',
-        description:'Orchid is a wonderful flower',
+        title:'Rose',
+        description:'rose is a wonderful flower',
+        img: rose,
         price:3
     },
     {
         id:'f6',
-        title:'Alyssum',
-        description:'Alyssum is a wonderful flower',
+        title:'sunflowers',
+        description:'sunflowers is a wonderful flower',
+        img:sunflowers,
         price:2
     },
     {
         id:'f7',
-        title:'Hibiscus',
-        description:'Hibiscus is a wonderful flower',
+        title:'Tulips',
+        description:'Tulips is a wonderful flower',
+        img:tulips,
         price:3
     },
     {
         id:'f8',
-        title:'Daisy',
-        description:'Daisy is a wonderful flower',
+        title:'WaterLily',
+        description:'WaterLily is a wonderful flower',
+        img:waterLily,
         price:3
     }
 ]
