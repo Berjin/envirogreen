@@ -2,6 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Envirogreen E-Commerce Website
 This responsive Website is built with React, HTML and CSS. This website allows users to buy plants and flowers. 
 
+## Demo Website
+Demo website : https://envirogreen.herokuapp.com/
+
 ## To run this project:
 1. Clone this repo
 2. Run `npm install`
