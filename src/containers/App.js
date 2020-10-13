@@ -61,7 +61,9 @@ class App extends Component {
         <div className="App">
             <Navbar/>
             <div className="container">
-              <h1>Flowers are beautiful</h1>
+            <hr/>
+              <h1 style={{color:"white",fontStyle:'italic'}}>To plant garden is to believe in tomorrow</h1>
+            <hr/>
             </div>
             <Cart cart={this.state.cart}/>
             <SearchBox searchChange={this.onSearchChange}/>
