@@ -12,9 +12,12 @@ const PlantList = ({plants,addFunc})=>{
         <h2>Plants</h2>
         <hr/>
         </div>
-        <div className="grid-wrapper">
-        {cardComponent}
-        </div>
+        {plants.length?
+        <div className="grid-wrap">
+            {cardComponent}
+        </div>:
+        <h2 style={{textAlign:'center'}}>No plants found!</h2>
+        }
         </div>
     );
 }
