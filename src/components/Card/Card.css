@@ -1,0 +1,24 @@
+img{
+    width: 170px;
+}
+.card{
+    border: 2px solid;
+    background-color: white;
+    width: auto;
+    padding: 30px;
+    margin: 20px;
+    transition: all 0.3s linear;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 5px;
+}
+.card:hover{
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px;
+    cursor: pointer;
+    background-color: white;
+}
+.amount{
+    color: rgb(37, 5, 128);
+    font-weight: bold;
+}

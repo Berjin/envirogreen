@@ -13,6 +13,15 @@ class App extends Component {
       plants:plants,
       flowers:flowers,
       searchfield:'',
+      cart:[
+          {
+            id:3,
+            title:'Sunflower',
+            description:'Sunflower is a wonderful flower',
+            price:'₹200',
+            units:1
+        },
+      ]
     }
   }
   onSearchChange = (event)=>{
