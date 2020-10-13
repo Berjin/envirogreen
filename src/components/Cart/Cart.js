@@ -25,7 +25,7 @@ const Cart = (props)=>{
                 {cart.map(c => <li style={{listStyleType:'none'}}>{c.title} | Quantity: {c.units} | Price: {c.price*c.units}</li>)}
             </ul>
             <p className='amount'>Total Price: ₹ {totalPrice()}</p>
-            <Button onClick={()=>handleCheckout()}><a href='' style={{textDecoration:'none'}}>Check out</a></Button>
+            <Button onClick={()=>handleCheckout()}>Check out</Button>
             </div>
             }
             

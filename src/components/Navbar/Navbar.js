@@ -11,7 +11,7 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="NavbarItems sticky">
-                <h1 className="navbar-logo">EnviroGreen</h1>
+                <h1 className="navbar-logo">EnviroGreen <i class="fa fa-leaf" aria-hidden="true"></i></h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ?'fas fa-times' : 'fas fa-bars'}></i>
                 </div>

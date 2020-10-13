@@ -126,9 +126,6 @@
         transition: 250ms;
         text-decoration: none;
     }
-    Button{
-        display: none;
-    }
 }
 .sticky{
     position: fixed;

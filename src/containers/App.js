@@ -6,7 +6,7 @@ import {flowers} from '../components/FlowerList/Flowerdetails' ;
 import {plants} from '../components/PlantList/Plantdetails' ;
 import FlowerList from '../components/FlowerList/FlowerList';
 import PlantList from '../components/PlantList/PlantList';
-
+import Cart from '../components/Cart/Cart'
 
 class App extends Component {
   constructor(){
@@ -16,13 +16,13 @@ class App extends Component {
       flowers:flowers,
       searchfield:'',
       cart:[
-          {
-            id:3,
-            title:'Sunflower',
-            description:'Sunflower is a wonderful flower',
-            price:'₹200',
-            units:1
-        },
+        //   {
+        //     id:3,
+        //     title:'Sunflower',
+        //     description:'Sunflower is a wonderful flower',
+        //     price:'₹200',
+        //     units:1
+        // },
       ]
     }
   }
@@ -63,7 +63,7 @@ class App extends Component {
             <div className="container">
               <h1>Flowers are beautiful</h1>
             </div>
-
+            <Cart cart={this.state.cart}/>
             <SearchBox searchChange={this.onSearchChange}/>
             <FlowerList flowers={filteredflowers} addFunc={this.handleAddFunc.bind(this)}/>
             <PlantList plants={filteredplants}addFunc={this.handleAddFunc.bind(this)}/>
