@@ -13,7 +13,7 @@ const FlowerList = ({flowers,addFunc})=>{
         <hr/>
         </div>
         {flowers.length?
-        <div className="grid-wrap">
+        <div className="grid-wrapper">
             {cardComponent}
         </div>:
         <h2 style={{textAlign:'center'}}>No flowers found!</h2>
