@@ -1,5 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Envirogreen E-Commerce Website
+<p>
+  <img alt="Github issues" src="https://img.shields.io/github/issues/berjin/envirogreen">
+  <img alt="Github forks" src="https://img.shields.io/github/forks/berjin/envirogreen">
+  <img alt="Github stars" src="https://img.shields.io/github/stars/berjin/envirogreen">
+</p>
+
 This responsive Website is built with React, HTML and CSS. This website allows users to buy plants and flowers. 
 
 ## Demo Website
